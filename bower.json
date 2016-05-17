@@ -1,0 +1,29 @@
+{
+  "name": "myapp",
+  "description": "AngularJS base application",
+  "main": "index.js",
+  "authors": [
+    "Frédéric Nell (CSC)"
+  ],
+  "license": "BSD-2-Clause",
+  "keywords": [
+    "docker",
+    "angular",
+    "test"
+  ],
+  "moduleType": [],
+  "homepage": "www.csc.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "^3.3.6",
+    "angular-bootstrap": "^1.1.2"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "myapp",
+  "version": "0.0.1",
+  "description": "AngularJS base application",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/karma/bin/karma start --single-run"
+  },
+  "keywords": [
+    "docker",
+    "angular",
+    "test"
+  ],
+  "author": "Frédéric Nell (CSC)",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "morgan": "~1.6.1",
+    "errorhandler": "~1.4.3",
+    "compression": "~1.6.1",
+    "express": "~4.13.4"
+  },
+  "devDependencies": {
+    "karma-ng-html2js-preprocessor": "~0.2.1",
+    "chai": "~3.5.0",
+    "karma-chai": "~0.1.0",
+    "mocha": "~2.4.5",
+    "karma-mocha": "~0.2.2",
+    "karma": "~0.13.21",
+    "phantomjs-prebuilt": "~2.1.4",
+    "karma-phantomjs-launcher": "~1.0.0"
+  }
+}
