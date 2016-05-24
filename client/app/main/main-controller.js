@@ -8,8 +8,9 @@ angular.module('app')
     ];
 
     $scope.list2 = [
-      {label: 'uno'},
-      {label: 'dos'},
-      {label: 'tres'}
+      {label: 'un'},
+      {label: 'deux'},
+      {label: 'trois'},
+	  {label: 'tests'}
     ];
   }]);
